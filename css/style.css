@@ -1,0 +1,40 @@
+body {
+    background-image: url(/images/IMG_2156.JPG);
+}
+
+p{
+    font-family: shiblu;
+    line-height: 300%;
+}
+@font-face{
+    font-family:shiblu;
+    src:url(/font/Agbalumo-Regular.ttf) ; 
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
